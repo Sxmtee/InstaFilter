@@ -7,20 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041123C22CD5288F00795374 /* CoreImageFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041123C12CD5288F00795374 /* CoreImageFilters.swift */; };
+		0425DA522CCFDC570014AE2D /* PropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425DA512CCFDC560014AE2D /* PropertyWrapper.swift */; };
+		0425DA542CCFFA370014AE2D /* ContentUnavailable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425DA532CCFFA360014AE2D /* ContentUnavailable.swift */; };
 		047E8A7F2CCBFC4F00DF0D97 /* AlertDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E8A7E2CCBFC4F00DF0D97 /* AlertDialog.swift */; };
 		0484C7DC2CC9493900F7E4A4 /* InstaFilterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484C7DB2CC9493900F7E4A4 /* InstaFilterApp.swift */; };
 		0484C7DE2CC9493900F7E4A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484C7DD2CC9493900F7E4A4 /* ContentView.swift */; };
 		0484C7E02CC9494100F7E4A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0484C7DF2CC9494100F7E4A4 /* Assets.xcassets */; };
 		0484C7E32CC9494100F7E4A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0484C7E22CC9494100F7E4A4 /* Preview Assets.xcassets */; };
+		049450942CD4FB180083B92E /* PhotoPickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049450932CD4FB180083B92E /* PhotoPickers.swift */; };
+		049450962CD504790083B92E /* ShareLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049450952CD504790083B92E /* ShareLinkView.swift */; };
+		049450982CD508F90083B92E /* AppstoreReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049450972CD508F90083B92E /* AppstoreReview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041123C12CD5288F00795374 /* CoreImageFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageFilters.swift; sourceTree = "<group>"; };
+		0425DA512CCFDC560014AE2D /* PropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapper.swift; sourceTree = "<group>"; };
+		0425DA532CCFFA360014AE2D /* ContentUnavailable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavailable.swift; sourceTree = "<group>"; };
 		047E8A7E2CCBFC4F00DF0D97 /* AlertDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDialog.swift; sourceTree = "<group>"; };
 		0484C7D82CC9493900F7E4A4 /* InstaFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0484C7DB2CC9493900F7E4A4 /* InstaFilterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaFilterApp.swift; sourceTree = "<group>"; };
 		0484C7DD2CC9493900F7E4A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0484C7DF2CC9494100F7E4A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0484C7E22CC9494100F7E4A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		049450932CD4FB180083B92E /* PhotoPickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickers.swift; sourceTree = "<group>"; };
+		049450952CD504790083B92E /* ShareLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkView.swift; sourceTree = "<group>"; };
+		049450972CD508F90083B92E /* AppstoreReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppstoreReview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +67,13 @@
 			children = (
 				0484C7DB2CC9493900F7E4A4 /* InstaFilterApp.swift */,
 				0484C7DD2CC9493900F7E4A4 /* ContentView.swift */,
+				041123C12CD5288F00795374 /* CoreImageFilters.swift */,
+				049450932CD4FB180083B92E /* PhotoPickers.swift */,
+				049450952CD504790083B92E /* ShareLinkView.swift */,
+				049450972CD508F90083B92E /* AppstoreReview.swift */,
+				0425DA512CCFDC560014AE2D /* PropertyWrapper.swift */,
 				047E8A7E2CCBFC4F00DF0D97 /* AlertDialog.swift */,
+				0425DA532CCFFA360014AE2D /* ContentUnavailable.swift */,
 				0484C7DF2CC9494100F7E4A4 /* Assets.xcassets */,
 				0484C7E12CC9494100F7E4A4 /* Preview Content */,
 			);
@@ -141,8 +159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				047E8A7F2CCBFC4F00DF0D97 /* AlertDialog.swift in Sources */,
+				0425DA542CCFFA370014AE2D /* ContentUnavailable.swift in Sources */,
 				0484C7DE2CC9493900F7E4A4 /* ContentView.swift in Sources */,
+				0425DA522CCFDC570014AE2D /* PropertyWrapper.swift in Sources */,
+				049450942CD4FB180083B92E /* PhotoPickers.swift in Sources */,
 				0484C7DC2CC9493900F7E4A4 /* InstaFilterApp.swift in Sources */,
+				041123C22CD5288F00795374 /* CoreImageFilters.swift in Sources */,
+				049450962CD504790083B92E /* ShareLinkView.swift in Sources */,
+				049450982CD508F90083B92E /* AppstoreReview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
