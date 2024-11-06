@@ -9,13 +9,13 @@ import SwiftUI
 
 struct ShareLinkView: View {
     var body: some View {
-//        ShareLink(
-//            item: URL(string: "https://www.hackingwithswift.com")!,
-//            subject: Text("Learn Football here"),
-//            message: Text("Check out the 100 Days of Football!")
-//        ) {
-//            Label("Spread the word about Swift", systemImage: "swift")
-//        }
+        ShareLink(
+            item: URL(string: "https://www.hackingwithswift.com")!,
+            subject: Text("Learn Football here"),
+            message: Text("Check out the 100 Days of Football!")
+        ) {
+            Label("Spread the word about Swift", systemImage: "swift")
+        }
         
         let example = Image(.example)
 
